@@ -1,0 +1,243 @@
+CRITICAL - 2023-11-04 00:23:21 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Le4D6snAAAAAHD3_8OPnw4teaKXWZdefSyXn4H3&amp;response=03AFcWeA5HVFh6OX6BRYXCJUvb6yedWwtAyoNOxUdjkRQx4zQealP95zgp2xzqZBSKnIvylhNx0MMdAfspDq8KLKHDak_3---aL0neOv4gWVZvqy9pH6XFJgin64UaQFv76YfuMuMaBurtQFglsC_zWCkKGZHpHXQen-_K9TCOlYLQH2lrhtWJAA25c64dRXUxrkw8KQcOP9cTM_dbuMAMsRy2TgyYsGGO09XssbFP0sTHVqbGBY1qnalQJtAG5A6K8hGlFEVPBsyvUMVS9mE6i6Rsa40eHgi4gale21pr1xvISuji2kplu2h89YJVxBYMvwBZLMTmo37sM5EHrSC_eJLNTGOu8KbTI0kwoItBiq5EKwf8jE6Z_ng4CUusNEBmtFBXbnBvh9_9jJjN58ooWZJjVIFCjp_Ponr6etXKFaWXp2BG7MXtMeUtxbIBCB5Xrx5SZMz8uYp-VTIHu6ArlKtj8QLyWy3XIpq6LronwVAyW-CqomfcyJ-0fLRBx9SkyxJJ7MOs6fyNHZr6RsZOtVeoPJYTK2X3ZPiAmxveaK3bv5pMEk5FlWOD7lztQxxlHpc61uH41f4FfgduHIRN69WRC0fb-IEmTJXZ_X4oW6P5PiURORJkvathkUUn0oorzabVm8tdkSbwKGkfPcue5-ldf7lre97Pm3LOduvS5Bf3K4gMTJzT1YX2HoRkO9NZeJ_LTkIaoZBOX_sBNV2cpjrP92UonRo0QE49BUgCdKSk_CeKKb53AwplY1VvMdGpPIujQGG9KFQ9quC6I_KLU6enOM0s7eQOhSVM1N66WRcOJtXWNj_TpMCDCcFNUgDOUt8lJEYNqTvIhEuZjF823U_VkiZrTh81Pd1uyqBZP-6ZBV6pQ_V0Mev9KcvL7C2FkAkfRIGpOsPZuvILRe13N78DS9FSQQWatfXsdcLHisgJlYqot_S1GAanmjqlwqLP-gMh6VuTCcDWWNZXOPMsLgLCVPxrpnl132qNr__63NHLecgpvI2Ama_wqDY8PHm2DFFBrU-UOFEWrmOoSAv8Tct4LMl3aEIjyKE2FaGyq-pgxHTGpCmP7CAcIUdj7Q9qtussBOG7AjBTV1BXNJHXaspw3OeXLdQ2oC7fdVmPDcLkAXY8HVjJW91A33kXJatBBed4vWfctTiPi8839tp36ZX1DAi9t0Zhy0gjcb2mS5crVLk1PZNigI5lfqz9u1SmIgmp_EOaXBTpK1i4MrOOMzkFUxtnFufnGBVkTXxRs65p-ALMQLzqduyAhOVxLRW8cuKJEJaBM6fESmR16Gs5JuE5Et_i7avifksPbCJgojkEk5OtFHRZ6fuGtIoVI2IvdeInIc9B6hwZEWSFINhgFe7JtBbJRf56NWcYLb6RO3CQGPaZBA39KRLrEkH6vHXRrGIl6CvyZm6dDBP6FrzzSa9Vd1IO2hjhDaEo4kIZkpbEYYE1Zww2PwG5pfE_QfWJnTiPrT1HmYzmy5Hzuk9M92Djw_hBjP-UIx6yArxNPL2J9Fq21bE9F-vzKRV6-Ypu0SpsrW2PpzHC): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(46): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-04 00:23:34 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Le4D6snAAAAAHD3_8OPnw4teaKXWZdefSyXn4H3&amp;response=03AFcWeA5HVFh6OX6BRYXCJUvb6yedWwtAyoNOxUdjkRQx4zQealP95zgp2xzqZBSKnIvylhNx0MMdAfspDq8KLKHDak_3---aL0neOv4gWVZvqy9pH6XFJgin64UaQFv76YfuMuMaBurtQFglsC_zWCkKGZHpHXQen-_K9TCOlYLQH2lrhtWJAA25c64dRXUxrkw8KQcOP9cTM_dbuMAMsRy2TgyYsGGO09XssbFP0sTHVqbGBY1qnalQJtAG5A6K8hGlFEVPBsyvUMVS9mE6i6Rsa40eHgi4gale21pr1xvISuji2kplu2h89YJVxBYMvwBZLMTmo37sM5EHrSC_eJLNTGOu8KbTI0kwoItBiq5EKwf8jE6Z_ng4CUusNEBmtFBXbnBvh9_9jJjN58ooWZJjVIFCjp_Ponr6etXKFaWXp2BG7MXtMeUtxbIBCB5Xrx5SZMz8uYp-VTIHu6ArlKtj8QLyWy3XIpq6LronwVAyW-CqomfcyJ-0fLRBx9SkyxJJ7MOs6fyNHZr6RsZOtVeoPJYTK2X3ZPiAmxveaK3bv5pMEk5FlWOD7lztQxxlHpc61uH41f4FfgduHIRN69WRC0fb-IEmTJXZ_X4oW6P5PiURORJkvathkUUn0oorzabVm8tdkSbwKGkfPcue5-ldf7lre97Pm3LOduvS5Bf3K4gMTJzT1YX2HoRkO9NZeJ_LTkIaoZBOX_sBNV2cpjrP92UonRo0QE49BUgCdKSk_CeKKb53AwplY1VvMdGpPIujQGG9KFQ9quC6I_KLU6enOM0s7eQOhSVM1N66WRcOJtXWNj_TpMCDCcFNUgDOUt8lJEYNqTvIhEuZjF823U_VkiZrTh81Pd1uyqBZP-6ZBV6pQ_V0Mev9KcvL7C2FkAkfRIGpOsPZuvILRe13N78DS9FSQQWatfXsdcLHisgJlYqot_S1GAanmjqlwqLP-gMh6VuTCcDWWNZXOPMsLgLCVPxrpnl132qNr__63NHLecgpvI2Ama_wqDY8PHm2DFFBrU-UOFEWrmOoSAv8Tct4LMl3aEIjyKE2FaGyq-pgxHTGpCmP7CAcIUdj7Q9qtussBOG7AjBTV1BXNJHXaspw3OeXLdQ2oC7fdVmPDcLkAXY8HVjJW91A33kXJatBBed4vWfctTiPi8839tp36ZX1DAi9t0Zhy0gjcb2mS5crVLk1PZNigI5lfqz9u1SmIgmp_EOaXBTpK1i4MrOOMzkFUxtnFufnGBVkTXxRs65p-ALMQLzqduyAhOVxLRW8cuKJEJaBM6fESmR16Gs5JuE5Et_i7avifksPbCJgojkEk5OtFHRZ6fuGtIoVI2IvdeInIc9B6hwZEWSFINhgFe7JtBbJRf56NWcYLb6RO3CQGPaZBA39KRLrEkH6vHXRrGIl6CvyZm6dDBP6FrzzSa9Vd1IO2hjhDaEo4kIZkpbEYYE1Zww2PwG5pfE_QfWJnTiPrT1HmYzmy5Hzuk9M92Djw_hBjP-UIx6yArxNPL2J9Fq21bE9F-vzKRV6-Ypu0SpsrW2PpzHC): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(46): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-04 02:23:18 --> Invalid file: template/header.php
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header...')
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(963): view('template/header', Array)
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:23:27 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:24:16 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:24:33 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:24:38 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:25:56 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:27:21 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:28:10 --> Use of undefined constant gas - assumed 'gas' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\mini_bank\app\Views\log_activity\log.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-04 02:28:12 --> Use of undefined constant gas - assumed 'gas' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\mini_bank\app\Views\log_activity\log.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-04 02:28:25 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:28:47 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:28:57 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:29:35 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(965): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 02:33:32 --> Cannot redeclare App\Controllers\Home::penyetoran_search()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-04 02:35:44 --> Cannot redeclare App\Models\M_model::search_log()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-04 04:01:38 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\mini_bank\app\Views\dashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(204): view('dashboard')
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-04 04:21:47 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1158): view('log_activity/lo...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_activity_pegawai()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-04 05:01:27 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\mini_bank\app\Models\M_model.php on line 409
+#0 C:\xampp\htdocs\mini_bank\app\Models\M_model.php(409): CodeIgniter\Database\BaseBuilder->like('user.username', NULL)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1177): App\Models\M_model->search_log_pegawai('log_activity', 'user', 'log_activity.id...', 'user.username', 'log_activity.ac...', 'log_activity.ta...', NULL)
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_pegawai_search()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-04 05:16:20 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\mini_bank\app\Models\M_model.php on line 409
+#0 C:\xampp\htdocs\mini_bank\app\Models\M_model.php(409): CodeIgniter\Database\BaseBuilder->like('user.username', Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1184): App\Models\M_model->search_log_pegawai('log_activity', 'user', 'log_activity.id...', 'user.username', 'log_activity.ac...', 'log_activity.ta...', Array)
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_pegawai_search()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-04 05:18:54 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\mini_bank\app\Models\M_model.php on line 409
+#0 C:\xampp\htdocs\mini_bank\app\Models\M_model.php(409): CodeIgniter\Database\BaseBuilder->like('user.username', Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1185): App\Models\M_model->search_log_pegawai('log_activity', 'user', 'log_activity.id...', 'user.username', 'log_activity.ac...', 'log_activity.ta...', Array)
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_pegawai_search()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-04 05:21:57 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\mini_bank\app\Models\M_model.php on line 409
+#0 C:\xampp\htdocs\mini_bank\app\Models\M_model.php(409): CodeIgniter\Database\BaseBuilder->like('user.username', Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1184): App\Models\M_model->search_log_pegawai('log_activity', 'user', 'log_activity.id...', 'user.username', 'log_activity.ac...', 'log_activity.ta...', Array)
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_pegawai_search()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-04 05:22:02 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\mini_bank\app\Models\M_model.php on line 409
+#0 C:\xampp\htdocs\mini_bank\app\Models\M_model.php(409): CodeIgniter\Database\BaseBuilder->like('user.username', Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1184): App\Models\M_model->search_log_pegawai('log_activity', 'user', 'log_activity.id...', 'user.username', 'log_activity.ac...', 'log_activity.ta...', Array)
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->log_pegawai_search()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-04 06:19:09 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Le4D6snAAAAAHD3_8OPnw4teaKXWZdefSyXn4H3&amp;response=03AFcWeA7h88sIEnPh9p6lJyiRN7rY7nUvgDtRhmDCumfTu_1hBKVlv3LHpS5sCcyp3LF2WhNmgjRop528euDHegz10utq3qksrVcjhmNZHTV_-qthNQeRsr7FyWlLIfXcevNikQiMmDDKAVNStYJT0NOs64rEJG8CHorpxRPIbYpgKmLCLUl08-EsFiLYCEbZWh0zuOLpepMkf24nojwTcT30_oAD7RA3GvTGOF1fzLKQ4gf9PdDgEQpolAGtFT8HTizZypsUvrM9WUD26m2-K--fjusUDfLMNpk2zczRF9pU5uSdIuaqPMixtPyI6A2mwX7MKQn-SICQVJCn9xLdiT3X7oBkbdLK-NYoNdxWZGKEhwGlfXhUNpxrO0jGtb5wORAJKdjKWP6D1LRIlwXdz7hT4rJehD6emBROJjmISpiVQLgbI4PZUwg7OYPcscqlISFVNlu44-MYsyK1G50sRWLAljIYcnY63K1QWtnmEyKoPAVI_cV7Q3NB7y8kIpUORIM6hwKXUcP1yknX4z5-Dy0GotEq4bOCa7CKd0qTeJeUewkCVyB0jleKhK-AoDaWodlFlOHFp4Q5WkakXDlP0XloZ8SQnZ1g8grNyJHH3lF1B8tHxSrunvY0TS_nIpDMyblVr3P0fmWTHF7eHZzxM08jNactfjqkvqVb_FbXXL-HLYkObCo0yDhLIhU0u2j-oPmRvASJw-xcJX7DsBv3hFLSMnq9R1dJNyeMk63RYnECQbQ6u5Yi9W7bSSC4NxU5OK4iOSdpL9hARQTRVWUmr0mXFUMS72x3LBx5jS1Dm7fwrBKEmf7_59UaSw9qWXDOpC0JMMVetF6xS5Tvr9um9dxvjkLn32v1f_o_XZwtoxnSRJTIaVw7JzC9NbS1UAVvwjnZGp5dtXRuah0QoXyE9pXgnOan0mwg0J0oRhJHIzo5Lvvuw_dMDJFOtwjgYpEKdUtHPo5aHxkkdGrGCbPVnp730ttQAtN5m4uUG2LDPDKyh7zh-Xumoso5gpObYayPHL1hk-WOTRflyWyQzeRtycDzgZIVTwSuW8WrQEIam0xYUFleTmihsqbPNASk6KSJbGHfnwSTquO4zvEWnkY8UDfdzwizkRaWhxqTnb_bHKbYvUClZkxuW4PYoH4obSQMH6PaUWQXV3XsUvJLNoZxvE7Mn6PUCAa1A35Ek2gQOoLF359gpeZ2TQHijJPoWV5Q9bBDcwXU6cSQMdo69Ovdc7TbAnURCPsS-cPsE55DboJ1uWlZAKPAPksc2ubtpMAOoilhrCJySNgMHwSKaAS6IiDxqfO7Bc2YEW67jGvq3OMTIHLFzTE9gb4nQM9dAOacNPYzX2uhCuaRofCIZcOszMQZX33vq7z121PQkwrWYqNK4SI4VnRLPFL_8B2cVh8kcdwPBP4tWOmPvRhwVFHmijLX_Yu_N5pefb1rKAAKzi1CjIFN74QVrd7WgoyPAfTsiB-Lai0T5wSi4106V6YVwyEVcClcu7f1Bs1RsZkdTTXZ6-JRJCYxMrVpoyK6evTKyD5_Qve2lmwX): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(46): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-04 06:29:10 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Le4D6snAAAAAHD3_8OPnw4teaKXWZdefSyXn4H3&amp;response=03AFcWeA5UiKFyIGiH6CHwYh6crZmBVLHjYAHsKHaj-FZA0tnRg7l4L8ZSkR6yvuM5HwfdwlbUmUfvq-Fs98i8LJkLdkmoRHuGlwgTAuKLYSp641Igs1Y5ORPAYADPj4ALuHid4oadkzqNrAuQ6oLnkHE2toj-wyu35LAKftl2kpI4lfJMBU7O0QSWcdEimFvDCYgxfgQCesiHlXwDWnnLj_xT3YE9cLE2__2beN7tkRSvCg-z1VtuSvhi5Ty0hJvjWCMZwLmWmcCDI_x8sdFPECX1_dJ73yQkZbT8M7bf-awXaNubD4-r7QuJk3-wqBu1-4vKLEnbCKvkcPlHedsm8qKL-Ybrix9zXgIyBOhwkTAoc4Z5yg8-6RW7x5EO2tGbhr9LlFQYhULJj8Wt8DdluTqXXi-S3gUIeGyt_LyF5tTRV_v4-fO1SXSKEFWHL9h4u6W3aDHfyD5Hg5ONUyOauV5oqV95U04NPk71bFweu1OZTfV_8xNuhGbiDu7xb8eLBzdUxVjAR2Ampj9KuH4zaMUHfg1IOHECIP_xMXJn3DK0W0Wfl92o0I2S4qYULyyswVjBaNZiGD8a1lWtaZ875jnABo249NIkP6bWlT02Qwb6CUgMpmXg9RRXHRiRAFOAMyTa3lMFkFAJsmiUzrGKXlyvH2e7L7pCUlm_kA7rj1UtatEBUJ2xs2yKxo2mK998Y-vYxjeACNzqG6fwwAD-4WnWCjD55tx29WnD3Hgct0RqnVvSKsRiAtk---vYYtDubQpG_nnLfPxlbE-bRlZWtrkU-SvTbY21qc5AggDM5-WlDumiH2-XKhLo_4pOVOMHS5AkK-5GLY19fVu8NjKvNfdr7wdqLIrX-xYiRAvwKgXaLZukrKF99Ysbm93J0DexudUJc4xTEHHRxZhDI31yuRt870ZdG68WCCwuh-YWuiKMYpTZoF6iE6JcPAJ9Mb80ThG4hScHUE8Ue3gFGu0TlerbAhkXLNuj4AbYmfQIV68k0jzMo53eX27-iE0GOdnCYwMou_4MRAESKCgNFstRWn6n7V9y8WthwAfRyxgsRmhNUEfKRiX4MbwYhK-FpQi7RLKcOmY7a3RGSngYvmdpDS-AWDpX6rbHOM6biMM7g5q5kmFnrGX0g-_i7c5ITRetsnsTu7VU352wWPgMOHZZQ2pP2UhGaCYiSJwzUhtAAPiap32lsMPrCYUBU6iwM6AFOaeah6-YFq5Op1Oxwqf_uaFKFfg_ygHUpPsd6qTYz6uP5YpNolM-v-QKzxdnLmZ_TeoSoSote-z3JGSnNXOVHbQLgR_lWRXhb5NhzpsJYtQFnsPmpQGHKKsWOLoGiVQuqOuGPbu5RCVnc73H4oUmH9GQLRlBsDoJ6P97e_fUlZxcVFz_SHkH-HVgRy928x5sDqKO_Bw-6asSNSAqu3NuAWQOwd5WpqS5JailyEayKRFbITDbcgbDjuTw9ZEOm94ROiryTlyewQZh2DsQbvkUy-DJSkZWnYmycMDgJ12-pd8CxnZK-SjKA-kfVFDjMjfJ9IxdjBzd9aCIDzmLJiTEqQ_ufEqEWgdT-w): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(46): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

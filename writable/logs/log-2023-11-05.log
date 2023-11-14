@@ -1,0 +1,139 @@
+CRITICAL - 2023-11-05 21:07:00 --> Invalid file: filter.php
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('filter.php')
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('filter', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1575): view('filter')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->laporan_mini_bank()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-05 21:07:22 --> Invalid file: filter.php
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('filter.php')
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('filter', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1575): view('filter')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->laporan_mini_bank()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-11-05 21:07:45 --> Table 'mini_bank.invoice_service' doesn't exist
+CRITICAL - 2023-11-05 21:07:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1595): App\Models\M_model->filter_invoice('invoice_service', '2023-10-01', '2023-11-06')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-05 21:09:00 --> Table 'mini_bank.invoice_service' doesn't exist
+CRITICAL - 2023-11-05 21:09:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1595): App\Models\M_model->filter_invoice('invoice_service', '2023-10-01', '2023-11-06')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 21:17:57 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\mini_bank\app\Views\laporan\c_mini_bank.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_mini_...', Array, true)
+#4 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1598): view('laporan/c_mini_...', Array)
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 21:27:24 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\mini_bank\app\Views\laporan\c_mini_bank.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_mini_...', Array, true)
+#4 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1598): view('laporan/c_mini_...', Array)
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 21:27:27 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_mini_...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1598): view('laporan/c_mini_...', Array)
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-05 21:27:40 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\mini_bank\app\Views\laporan\c_mini_bank.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_mini_...', Array, true)
+#4 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1598): view('laporan/c_mini_...', Array)
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-11-05 21:56:11 --> The used SELECT statements have a different number of columns
+CRITICAL - 2023-11-05 21:56:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1590): App\Models\M_model->filterTransaksi('transaksi_penye...', 'transaksi_penar...', '2023-10-01', '2023-11-06')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-05 21:58:53 --> The used SELECT statements have a different number of columns
+CRITICAL - 2023-11-05 21:58:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1590): App\Models\M_model->filterTransaksi('transaksi_penye...', 'transaksi_penar...', '2023-10-01', '2023-11-06')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-05 21:59:09 --> The used SELECT statements have a different number of columns
+CRITICAL - 2023-11-05 21:59:09 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1590): App\Models\M_model->filterTransaksi('transaksi_penye...', 'transaksi_penar...', '2023-10-01', '2023-11-06')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-05 21:59:32 --> The used SELECT statements have a different number of columns
+CRITICAL - 2023-11-05 21:59:32 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1590): App\Models\M_model->filterTransaksi('transaksi_penye...', 'transaksi_penar...', '2023-10-01', '2023-11-06')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-05 22:00:19 --> The used SELECT statements have a different number of columns
+CRITICAL - 2023-11-05 22:00:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1590): App\Models\M_model->filterTransaksi('transaksi_penye...', 'transaksi_penar...', '2023-10-01', '2023-11-06')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 22:42:24 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_mini_...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(1592): view('laporan/c_mini_...', Array)
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->print_mini_bank()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

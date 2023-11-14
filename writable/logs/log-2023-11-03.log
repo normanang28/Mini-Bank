@@ -1,0 +1,107 @@
+ERROR - 2023-11-03 06:26:38 --> Unknown column 'tanggal_penyetoran_urut' in 'order clause'
+CRITICAL - 2023-11-03 06:26:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(717): App\Models\M_model->superOderBy('transaksi_penar...', 'nasabah', 'user', 'transaksi_penar...', 'transaksi_penar...', 'tanggal_penyeto...')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->penarikan()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-03 07:46:32 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 07:46:44 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 07:46:45 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 07:46:46 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 07:46:47 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 07:46:53 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:15:22 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:16:19 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:16:27 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('penarikan/penar...', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(727): view('penarikan/penar...')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->penarikan()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-03 08:18:27 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:18:34 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:19:14 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:20:39 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:25:30 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:25:31 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-03 08:25:31 --> Cannot redeclare ubahFormatTanggal() (previously declared in C:\xampp\htdocs\mini_bank\app\Views\penarikan\penarikan.php:88)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-11-03 21:50:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-11-03 21:50:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\mini_bank\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\mini_bank\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\mini_bank\app\Models\M_model.php(323): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(26): App\Models\M_model->getRow('settings_websit...', Array)
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-11-03 22:36:08 --> Class 'App\Controllers\NasabahModel' not found
+#0 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->aksi_tambah_penarikan()
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-11-03 22:39:06 --> Column 'id_nasabah_penarikan' cannot be null
+ERROR - 2023-11-03 22:39:17 --> Column 'id_nasabah_penarikan' cannot be null
+CRITICAL - 2023-11-03 22:53:27 --> Too few arguments to function App\Models\M_model::penyetoran_mini_bank(), 6 passed in C:\xampp\htdocs\mini_bank\app\Controllers\Home.php on line 617 and exactly 7 expected
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(617): App\Models\M_model->penyetoran_mini_bank('transaksi_penye...', 'nasabah', 'user', 'transaksi_penye...', 'tanggal_penyeto...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->penyetoran()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-03 23:36:24 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('penarikan/tamba...', Array, true)
+#3 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(874): view('penarikan/tamba...')
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->tambah_penarikan()
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

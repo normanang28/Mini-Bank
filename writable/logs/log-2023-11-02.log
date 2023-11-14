@@ -1,0 +1,60 @@
+ERROR - 2023-11-02 01:00:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-11-02 01:00:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\mini_bank\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\mini_bank\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\mini_bank\app\Models\M_model.php(323): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(26): App\Models\M_model->getRow('settings_websit...', Array)
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-11-02 06:01:32 --> Cannot redeclare App\Controllers\Home::pegawai()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-02 06:01:33 --> Cannot redeclare App\Controllers\Home::pegawai()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-02 06:03:11 --> Too few arguments to function App\Models\M_model::superOderBy(), 5 passed in C:\xampp\htdocs\mini_bank\app\Controllers\Home.php on line 602 and exactly 6 expected
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(602): App\Models\M_model->superOderBy('transaksi_penye...', 'nasabah', 'user', 'transaksi_penye...', 'tanggal_penyeto...')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->penyetoran()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-02 06:25:22 --> Call to undefined function ubahFormatTanggal()
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('penyetoran/deta...', Array, true)
+#3 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(632): view('penyetoran/deta...')
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->detail_penyetoran('1')
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-11-02 06:25:53 --> Call to undefined function ubahFormatTanggal()
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('penyetoran/deta...', Array, true)
+#3 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(632): view('penyetoran/deta...')
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->detail_penyetoran('1')
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-11-02 07:46:00 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Le4D6snAAAAAHD3_8OPnw4teaKXWZdefSyXn4H3&amp;response=03AFcWeA7M1K31JCVFsoIZHOEXevCW0pzDAScywC44S2XuqR8kge1OvG-U_7fVR1J7kvPnRcLYHTo9r8z8TKbZavivwlqgPnuvIIGQ_z7mFO_ku4Sv6marpHm1W7IzpX7gY3gSFcVHwQBUDAgJOmwNgSrjXKX1ZEFwbaxqe9BOa-xySF9qW9hSnlGm53Y2LJ8LczuGj1Q1xoFy7Eah3I4rfMxkk1WA7ul7AQ4a6FNulWRlmpnEbPVRksITqt4eJrnI2nSVt-i6ShO4JqMr4TO3v8DMlmtlrVdxDuO2yRAp8u9vgwbKUajGpa5AsCBRdwyo1miaurWYb0qR2r9pwdYUYx_JSnYQvf3xcSe_gI2tTzO0uSfyaawx6bW1FkwrGnPfN0hVQ6oWfZ8AGfc5notuz-g8L0RRpsNmOGqim04fvSeLRWQ64XdjhmBNkRvhrccVTqdFXdwTYgJkIyrsm5MNlRJgReSA9LfkBmMEJAy_VXpf4Gef1jqge8qUFLG_fFHU-enkCH9zpg1abX7Z-KA27Q_vabOS1FOBag_rFBPhQJuwbBV4dY7MHUwzZsonnSZKIU1p9C4tJXT5MwYDDmaXZtcov_QX3lgbjCwKOg_2s_V8u_N5dTXv5Rvaggujf-NgKjtCmPhrzKc0MdtIJXDxM7aj3n0gCEaexQGrfUach5naL-a-0jF7jNa7-ll4YA1WAWfFfmzh0tDi-G62W7kPj0y-VrAWR0Pm28Qa3a8JeHsFVDtwFhuM9-Fk8HQj3xmRW1_A3TOx__NVsWCBK33FM77J_hnTlEbVzznEEEUCnx3o6pS06xIPlmZMqVCkVmya7SvvUMoqvXPEz2d6kWovCAuvw0XWzs2L22FB-ade92yMHlxI5izZdRB3Cl5oSABFchA11dRRsGpU71lRHushHwXrL09hmX9IFg4WaFAEHYv4wt7Lqr8niFbL7EqnXA3a0BZMe_yZD1qrcYrLlmqAtnfYKijVGiPiM9OgUFLMM0a4iJFyA5_oKU0dFo0GB2fgYBsT9OagkIUsyaEQYkfofhUzZHTyplZlPWpCLskdZWuEDohGkIYIIY0oiHmbOBIG-n9qCTEKIb0DK0oM4iDbUBmzq3buOf_vsCg5BDBD4txzFtHOXE9c0h4q2MBOU5jxx9Ct-EcNnoSi7w3tiZ8M6DINmuepwzmSUl1vKOeqyCtpOWEO4-OxscshSDx5Shz9tFzjGzjjK2qrhDiYRiLnFaM8qnWA9QJIjsBiKy6N_Pqz4RvtSm8ERdtaX_mlEgbKoDWkCP6X1C9x8Df2X3OwsrvxJ-kH52PQOb1x0RJi_IUTDJsWEfCPqXWOfCqP0o_bvX3TSCNu6Sj8E3udlidV7y3ZwEYKmWJy4KcgPRw6zKYjT6VbydzHQF_y9emA0yuQYY05wma4Gy9lsBubeUt7NKcPbFttIRzCHETgYJl_G8mKG7JSpCSi9l5Z912nN9I8D16k7NDNqzd2yQ434pugN7JLUJ2R0fSSOJZXHH9I_l_6yp3tAEJk0o7GwwWQmxIAJezHwzfZcHbW3cfiMv6WeqCJVmOfnjcBIA): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(46): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

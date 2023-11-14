@@ -1,0 +1,410 @@
+CRITICAL - 2023-11-12 00:10:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\mini_bank\app\Views\dashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\mini_bank\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(204): view('dashboard')
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-12 20:16:30 --> syntax error, unexpected '$b' (T_VARIABLE)
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(207): view('dashboard')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-12 20:16:48 --> syntax error, unexpected '$b' (T_VARIABLE)
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(207): view('dashboard')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-12 20:16:54 --> syntax error, unexpected '$b' (T_VARIABLE)
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(207): view('dashboard')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-12 20:21:20 --> syntax error, unexpected ')', expecting ';' or ','
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(207): view('dashboard')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-12 20:21:50 --> syntax error, unexpected ')', expecting ';' or ','
+#0 C:\xampp\htdocs\mini_bank\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mini_bank\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(207): view('dashboard')
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-11-12 22:27:11 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:27:11 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(213): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:30:00 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:30:00 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(213): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:30:01 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:30:01 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(213): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:30:15 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:30:15 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(213): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:30:54 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:30:54 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(213): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:30:58 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:30:58 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(213): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:33:29 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:33:29 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:34:31 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:34:31 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:34:32 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:34:32 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:34:33 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:34:33 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:35:44 --> Unknown column 'nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:35:44 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:35:48 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:35:48 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:36:10 --> Unknown column 'id_nasabah_penarikan' in 'where clause'
+CRITICAL - 2023-11-12 22:36:10 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:36:15 --> Unknown column 'nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:36:15 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:37:26 --> Unknown column 'nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:37:26 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:39:24 --> Unknown column 'nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:39:24 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', Array, 'jumlah_penyetor...')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:39:33 --> Unknown column 'nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:39:33 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:41:36 --> Unknown column 'nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:41:36 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:44:47 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:44:47 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:45:11 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:45:11 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:45:41 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2023-11-12 22:45:41 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:45:44 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:45:44 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:45:53 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:45:53 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:48:01 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:48:01 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumData1('transaksi_penye...', 'jumlah_penyetor...', 'ong yan da')
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:48:17 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:48:17 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:49:15 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:49:15 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:49:25 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:49:25 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:49:39 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:49:39 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:49:39 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:49:39 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:49:52 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:49:52 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-12 22:50:15 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, array given, called in C:\xampp\htdocs\mini_bank\app\Models\M_model.php on line 763
+#0 C:\xampp\htdocs\mini_bank\app\Models\M_model.php(763): CodeIgniter\Database\BaseBuilder->get(Array)
+#1 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-12 22:50:56 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:50:56 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:51:16 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:51:16 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:51:22 --> Unknown column 'nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:51:22 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:51:28 --> Unknown column 'nama_nasabah' in 'where clause'
+CRITICAL - 2023-11-12 22:51:28 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-12 22:53:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-12 22:54:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-12 22:55:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(210): App\Models\M_model->sumDataWithWhere('transaksi_penye...', 'jumlah_penyetor...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-12 22:55:28 --> Unknown column 'id_nasabah_penyetoran' in 'where clause'
+CRITICAL - 2023-11-12 22:55:28 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\mini_bank\app\Controllers\Home.php(211): App\Models\M_model->sumDataWithWhere('transaksi_penar...', 'jumlah_penarika...', Array)
+#1 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mini_bank\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mini_bank\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mini_bank\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
