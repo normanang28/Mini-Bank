@@ -90,14 +90,14 @@
               <td>Kas</td>
               <td style="text-align: center;">Rp. <?php echo number_format($entry->jumlah_penyetoran, 0, ',', '.') ?></td>
               <td style="text-align: center;">~</td>
-              <td></td>
+              <td rowspan="2" style="text-align: center;">Rp. <?php echo number_format($runningBalance, 0, ',', '.') ?></td>
             </tr>
             <tr>
               <td colspan="2" class="text-right"></td>
-              <td style="text-align: right;">Pemasukan</td>
+              <td style="text-align: right;">Tabungan ~ <?php echo $entry->nama_nasabah ?> </td>
               <td style="text-align: center;">~</td>
               <td style="text-align: center;">Rp. <?php echo number_format($entry->jumlah_penyetoran, 0, ',', '.') ?></td>
-              <td style="text-align: center;">Rp. <?php echo number_format($runningBalance, 0, ',', '.') ?></td>
+              <!-- <td rowspan="2" style="text-align: center;">Rp. <?php echo number_format($runningBalance, 0, ',', '.') ?></td> -->
             </tr>
             <?php
           }
@@ -121,17 +121,17 @@
               <tr>
                 <td style="text-align: center;"><?php echo $entry->tanggal_penarikan ?></td>
                 <td style="text-align: center;">Penarikan</td>
-                <td>Penarikan</td>
+                <td>Tabungan ~ <?php echo $entry->nama_nasabah ?></td>
                 <td style="text-align: center;">Rp. <?php echo number_format($entry->jumlah_penarikan, 0, ',', '.') ?></td>
                 <td style="text-align: center;">~</td>
-                <td></td>
+                <td rowspan="2" style="text-align: center;">Rp. <?php echo number_format($runningBalance, 0, ',', '.') ?></td>
               </tr>
               <tr>
                 <td colspan="2" class="text-right"></td>
                 <td style="text-align: right;">Kas</td>
                 <td style="text-align: center;">~</td>
                 <td style="text-align: center;">Rp. <?php echo number_format($entry->jumlah_penarikan, 0, ',', '.') ?></td>
-                <td style="text-align: center;">Rp. <?php echo number_format($runningBalance, 0, ',', '.') ?></td>
+                <!-- <td rowspan="2" style="text-align: center;">Rp. <?php echo number_format($runningBalance, 0, ',', '.') ?></td> -->
               </tr>
             <?php
             }

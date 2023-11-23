@@ -1732,7 +1732,7 @@ class Home extends BaseController
                     $spreadsheet->getActiveSheet()
                         ->setCellValue('A' . ($no + 2), '')
                         ->setCellValue('B' . ($no + 2), '')
-                        ->setCellValue('C' . ($no + 2), 'Pemasukan')
+                        ->setCellValue('C' . ($no + 2), 'Pendapatan')
                         ->setCellValue('D' . ($no + 2), '~')
                         ->setCellValue('E' . ($no + 2), 'Rp. ' . number_format($entry->jumlah_penyetoran, 0, ',', '.'))
                         ->setCellValue('F' . ($no + 2), 'Rp. ' . number_format($runningBalance, 0, ',', '.'));
@@ -1754,7 +1754,7 @@ class Home extends BaseController
                         $spreadsheet->getActiveSheet()
                             ->setCellValue('A' . ($no + 1), $entry->tanggal_penarikan)
                             ->setCellValue('B' . ($no + 1), 'Penarikan')
-                            ->setCellValue('C' . ($no + 1), 'Penarikan')
+                            ->setCellValue('C' . ($no + 1), 'Pendapatan')
                             ->setCellValue('D' . ($no + 1), 'Rp. ' . number_format($entry->jumlah_penarikan, 0, ',', '.'))
                             ->setCellValue('E' . ($no + 1), '~')
                             ->setCellValue('F' . ($no + 1), '');
